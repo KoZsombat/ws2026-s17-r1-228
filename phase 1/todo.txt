@@ -1,0 +1,6 @@
+animations
+circles
+photos
+1 pixels
+mobile view
+validate, export

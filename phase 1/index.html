@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="competition, laundromat, sudsy">
+    <meta name="description" content="Sudsy website">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="src/images/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header"> <!--Header-->
+        <div class="HeaderSide">
+            <img src="src/images/sudsy-logo.svg" alt="Sudsy Logo">
+        </div>
+        
+        <div class="links">
+            <div class="move">
+                <a href="#about">About</a>
+                <a href="#hiw">How it Works</a>
+                <a href="#whyus">Why Sudsy</a>
+                <a href="#waw">Locations</a>
+            </div>
+        </div>
+        
+        <div class="HeaderSide right"> 
+            <a class="normalLink" href="#download">Download</a>
+            <button class="normalLink">Log In</button>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <img src="src/images/hamburger-icon.svg" alt="Menu">
+            </label>
+            <div class="menu"> <!--Hamburger nav-->
+                <label class="close-menu" for="menu-toggle">
+                        <img src="src/images/close-icon.svg" alt="Close">
+                </label>
+                <nav>
+                    <img src="src/images/sudsy-logo.svg" alt="Sudsy Logo">
+                    <hr>
+                    <a href="#about">About</a>
+                    <a href="#hiw">How it Works</a>
+                    <a href="#whyus">Why Sudsy</a>
+                    <a href="#waw">Locations</a>
+                    <hr>
+                    <button>Log In</button>
+                    <a href="#download">Download</a>
+                </nav>
+            </div>
+        </div>
+    </section>
+    
+    <section class="hero" id="hero"> <!--Hero Section-->
+        <h1>Laundry Done Smarter <br class="mobile-hide">&nbspwith AI</h1>
+        <h2> </h2>
+        <p>Effortlessly manage your laundromat visits with our cutting-edge app and modernized <br class="mobile-hide"> system—now featuring AI-powered laundry recommendations!</p>
+        <div>
+            <button onclick="document.getElementById('waw').scrollIntoView();">Explore Locations</button>
+            <button class="dark" onclick="document.getElementById('download').scrollIntoView();">Download the App</button>
+        </div>
+    </section>
+    <section class="about" id="about"> <!--About Section-->
+        <h4>WHO WE ARE</h3>
+        <h3>About Sudsy</h3>
+        <p>Sudsy is <b>Hungary's</b> first fully connected laundromat franchise, designed to make laundry day <br class="mobile-hide"><b>effortless</b> with cutting-edge technology and convenient locations. Our mobile app lets you <br class="mobile-hide">reserve machines, track progress, and manage payments—<b>all from your phone.</b> With our new <b>AI-<br class="mobile-hide">powered fabric analysis</b>, you can <b>upload a photo of your clothes</b>, and we'll recommend the ideal <br class="mobile-hide">wash and dry settings, ensuring your garments are cared for perfectly every time.</p>    
+    </section>
+    <section class="howitworks" id="hiw"> <!--How it works Section-->
+        <h4>HOW IT WORKS</h3>
+        <h3>How to Use it?</h3>
+        <p>Three Simple Steps to Cleaner Clothes</p>
+    </section>
+    <section class="whyus" id="whyus"> <!--Why us Section-->
+        <h4>WHY US?</h3>
+        <h3>Why Choose Sudsy?</h3>
+        <p>Our platform helps your wash your clothes. These are some of the reasons why<br class="mobile-hide"> you should use our services.</p>
+        <div class="container">
+            <div class="row">
+                <div class="whybox">
+                    <img src="src/images/mobile-icon.svg" alt="Mobile image" class="whyimg">
+                    <div class="whytext">
+                        <h3>Next-Gen Mobile App</h3>
+                        <p>Book machines, track progress, and pay—all from your smartphone.</p>
+                    </div>
+                </div>
+                <div class="whybox">
+                    <img src="src/images/brain-icon.svg" alt="Brain image" class="whyimg">
+                    <div class="whytext">
+                        <h3>AI Recommendations</h3>
+                        <p>Snap a photo of your clothes and let our AI suggest the best wash and dry settings.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="whybox">
+                    <img src="src/images/faceid-icon.svg" alt="Faceid image" class="whyimg">
+                    <div class="whytext">
+                        <h3>Modernized Experience</h3>
+                        <p>Say goodbye to waiting and hello to efficiency with smart systems designed for convenience.</p>
+                    </div>
+                </div>
+                <div class="whybox">
+                    <img src="src/images/leaf-icon.svg" alt="Leaf image" class="whyimg">
+                    <div class="whytext">
+                        <h3>Eco-Friendly</h3>
+                        <p>Optimize your laundry process to save time, energy, and money.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="download" id="download"> <!--Download Section-->
+        <div class="dwnldtext">
+            <h4>DOWNLOAD OUR APP!</h4>
+            <h3>Your Laundry,<br class="mobile-hide">Simplified</h3>
+            <p>Your perfect laundry experience is just a tap away—download <br>the Sudsy app now on the App Store or Google Play.</p>        
+            <div class="row2">
+                <button style="background-color: transparent; border: none;"><img src="src/images/app-store-download.png" alt="app store download"></button>
+                <button style="background-color: transparent; border: none;"><img src="src/images/google-play-download.png" alt="google play download"></button>
+            </div> 
+        </div>
+        <img class="laundromatimg" src="src/images/laundromat.png" alt="laundromat picture">
+    </section>
+    <section class="wherearewe" id="waw"> <!--Where are we Section-->
+        <h4 class="whereh4">WHERE ARE WE?</h4>
+        <h3>Highlighted Locations</h3>
+        <div class="row3">
+            <div class="wherebox">
+                <h5>Szeged Riverside</h5>
+                <p>Description: Enjoy a relaxing view of the <br class="mobile-hide">Tisza River while your laundry gets done. Our <br class="mobile-hide">eco-friendly machines and cozy seating<br class="mobile-hide"> area make this a customer favorite.</p>
+                <hr>
+                <h4>6723 Szeged</h4>
+                <p class="street">Fő utca 121</p>
+            </div>
+            <div class="wherebox main">
+                <h5>Budapest Central</h5>
+                <p>Located in the heart of Budapest, this<br class="mobile-hide"> flagship Sudsy location features 24/7<br class="mobile-hide"> availability and the latest high-efficiency<br class="mobile-hide"> washers and dryers. Perfect for busy<br class="mobile-hide"> professionals and students alike.</p>
+                <hr>
+                <h4>1051 Budapest</h4>
+                <p class="street">Kossuth Lajos utca 662</p>
+            </div>
+            <div class="wherebox">
+                <h5>Debrecen West End</h5>
+                <p>A convenient spot for locals, this Sudsy<br class="mobile-hide"> branch offers a spacious, clean<br class="mobile-hide"> environment with easy parking and quick<br class="mobile-hide"> access to nearby shops.</p>
+                <hr>
+                <h4>4027 Debrecen</h4>
+                <p class="street">Nyíri utca 992</p>
+            </div>
+        </div>
+        <button>View all locations</button>
+    </section>
+    <section class="footer"> <!--Footer-->
+        <div class="footerLogo">
+            <img src="src/images/sudsy-logo.svg" alt="Sudsy Logo">
+        </div>
+        <div class="footerLinks">
+            <a href="">Privacy Policy</a>
+            <hr />
+            <a href="">Terms & Conditions</a>
+            <hr />
+            <a href="">Cookie Policy</a>
+        </div>
+        <div class="footerCopyR">
+            <p>© SkillsIT 2025</p>
+        </div>
+    </section>
+</body>
+</html>
